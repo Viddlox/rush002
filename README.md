@@ -10,5 +10,7 @@ e.g. for rush (5,3) there are 5 horizontal and 3 vertical characters.
 
 The 2nd key hint is that if you notice the patterns for every project, you will see that each always follows one general pattern, where there is essentially a top row, a mid row, and a bottom row, where the top or bottom row will have characters that are either the same at each end of the pattern or different ones. The middle row will always have the same characters but will be printed between the coordinates of the top and bottom/leftmost or rightmost character. 
 
-
 The 3rd key hint is that if you remember ASCII, you would know that the characters can basically be read by the PC (written in single quotes ''). From here, with reference to the first key, is that one can be able to hard-code specific characters within a fixed coordinate position relative to another! (easier said than done ofc)
+
+Here I have written some code (with some aid) tried to simplify the functions as much as possible but make it such that it should be able to receive a full
+120/100 score by taking into account the bonus points (arguments, error handling, pattern generation for different exercises)
